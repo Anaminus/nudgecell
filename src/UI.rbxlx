@@ -1,0 +1,2182 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBXE92ACF8C52F14E04BDC5BC9AC495919F">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="ClientAnimatorThrottling">0</token>
+			<string name="CollisionGroups">Default^0^1</string>
+			<Ref name="CurrentCamera">RBXD00446795B9F4B568E5BE3B48427DA39</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<bool name="FilteringEnabled">true</bool>
+			<float name="Gravity">196.199997</float>
+			<token name="InterpolationThrottling">0</token>
+			<token name="LevelOfDetail">0</token>
+			<token name="MeshPartHeadsAndAccessories">0</token>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<CoordinateFrame name="ModelMeshCFrame">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+			<Vector3 name="ModelMeshSize">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<string name="Name">Workspace</string>
+			<bool name="NeedsPivotMigration">true</bool>
+			<token name="PhysicsSteppingMethod">0</token>
+			<Ref name="PrimaryPart">null</Ref>
+			<token name="SignalBehavior">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<bool name="StreamingEnabled">false</bool>
+			<int name="StreamingMinRadius">64</int>
+			<token name="StreamingPauseMode">0</token>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TerrainWeldsFixed">true</bool>
+			<bool name="TouchesUseCollisionGroups">false</bool>
+			<OptionalCoordinateFrame name="WorldPivotData">
+				<CFrame>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+			</OptionalCoordinateFrame>
+		</Properties>
+		<Item class="Camera" referent="RBXD00446795B9F4B568E5BE3B48427DA39">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>0.0987115502</X>
+					<Y>3.66386795</Y>
+					<Z>9.70625019</Z>
+					<R00>0.999996185</R00>
+					<R01>0.00101770961</R01>
+					<R02>-0.00260019954</R02>
+					<R10>-0</R10>
+					<R11>0.931213617</R11>
+					<R12>0.364473939</R12>
+					<R20>0.00279226992</R20>
+					<R21>-0.364472538</R21>
+					<R22>0.931209922</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<token name="FieldOfViewMode">0</token>
+				<CoordinateFrame name="Focus">
+					<X>0.103911951</X>
+					<Y>2.93491983</Y>
+					<Z>7.84382963</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX5376145839BD489CAE4A7B4B1378D7D8">
+			<Properties>
+				<token name="AcquisitionMethod">0</token>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="Decoration">false</bool>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0.0470588282</R>
+					<G>0.329411775</G>
+					<B>0.360784322</B>
+				</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBX16F1793EB63643C2A84461923CBC209B">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">NudgeUI3D</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Part" referent="RBX08D4263E56CA4CCE8EC7FCD78AE34F4B">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">false</bool>
+					<bool name="CanTouch">false</bool>
+					<bool name="CastShadow">false</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<bool name="Massless">true</bool>
+					<token name="Material">256</token>
+					<string name="Name">TargetBox</string>
+					<CoordinateFrame name="PivotOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">1</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>4</X>
+						<Y>4</Y>
+						<Z>4</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Folder" referent="RBXAB4185584B6444358494559569DBF245">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<string name="Name">Outline</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="BoxHandleAdornment" referent="RBX4F76576334B1403FA362FFDDE6A45567">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>0</Y>
+								<Z>-2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY10</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXA03245DC4799461693C311DF44ACC94A">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>0</Y>
+								<Z>2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY11</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX3784341C26A146F8931175BB8BBEF3AB">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>-2</Y>
+								<Z>-2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ00</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX36F6C2A977D14D6DBC77B02C1A8CAA34">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>-2</Y>
+								<Z>2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ01</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX2EDA706708DE4862AD225314AD45DA82">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>2</Y>
+								<Z>-2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ10</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX29FD1887764244F896CC664AE10FF792">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>2</Y>
+								<Z>2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ11</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX46FA2DEA241D4017A47FD5EBC81AB2C2">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>-2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX00</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX650727BFD19C4FE1A6BA810A9C1C4CA3">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX01</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXE7C98F9ABDEC4B73BD4F06B938290AAB">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>-2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX10</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXF55B3F38A6794CFEB391B74319BBC7D8">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX11</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXC644CBD91A214CDA9D217BD7B229E8A7">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>0</Y>
+								<Z>-2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY00</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX76D09CE7D61349E49CD4BEF2813E9C6F">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>0</Y>
+								<Z>2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY01</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Folder" referent="RBX49E6BDF1AE414778B35F2DD5C6902E26">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<string name="Name">OutlineDimmed</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="BoxHandleAdornment" referent="RBXD2704534F9F44FACB30B30A59022BD96">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX01</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXB7E4E8D2CAF2425B93C15EF60DA1169D">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>-2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX10</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXB36C3A764BEA4D3A8B4B2E8D903A98D8">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX11</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXA14169AD618E4F2B8083248576FC60EF">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>0</Y>
+								<Z>-2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY00</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX83447307B9E344B19DA702A8C3660182">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>0</Y>
+								<Z>2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY01</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXA41F16D047824BDFB590782E29AD6D6A">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>0</Y>
+								<Z>-2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY10</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXEE5D0C1C79E44D9AA0BCBA185C29C5D0">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>2</X>
+								<Y>0</Y>
+								<Z>2</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>-4.37113883e-08</R11>
+								<R12>-1</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineY11</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX02710336A3354682A441B3492E391371">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>-2</Y>
+								<Z>-2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ00</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBXE0BAD64439CE432D880E2246B782D17E">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>-2</Y>
+								<Z>2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ01</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX283C869BBD7746878DC3594D2D097003">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>2</Y>
+								<Z>-2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ10</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX1726B219422743DD83DA8A64F39230F2">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>0</X>
+								<Y>2</Y>
+								<Z>2</Z>
+								<R00>-4.37113883e-08</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>-1</R20>
+								<R21>0</R21>
+								<R22>-4.37113883e-08</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineZ11</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+					<Item class="BoxHandleAdornment" referent="RBX3EEAF775BFA94D1DAE7CCE31B91A3A08">
+						<Properties>
+							<token name="AdornCullingMode">1</token>
+							<Ref name="Adornee">RBX08D4263E56CA4CCE8EC7FCD78AE34F4B</Ref>
+							<bool name="AlwaysOnTop">true</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<CoordinateFrame name="CFrame">
+								<X>-2</X>
+								<Y>-2</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<Color3 name="Color3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<string name="Name">LineX00</string>
+							<Vector3 name="Size">
+								<X>0.0500000007</X>
+								<Y>0.0500000007</Y>
+								<Z>4.05000019</Z>
+							</Vector3>
+							<Vector3 name="SizeRelativeOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Transparency">0.449999988</float>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">0</int>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="BoxHandleAdornment" referent="RBXAE286AF64BBA473AA546066EBCBB2994">
+				<Properties>
+					<token name="AdornCullingMode">1</token>
+					<Ref name="Adornee">RBX5376145839BD489CAE4A7B4B1378D7D8</Ref>
+					<bool name="AlwaysOnTop">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<Color3 name="Color3">
+						<R>1</R>
+						<G>0.470588267</G>
+						<B>0.00392156886</B>
+					</Color3>
+					<string name="Name">CurTick</string>
+					<Vector3 name="Size">
+						<X>0</X>
+						<Y>0.5</Y>
+						<Z>0.0500000007</Z>
+					</Vector3>
+					<Vector3 name="SizeRelativeOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="Transparency">0.200000003</float>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">2</int>
+				</Properties>
+			</Item>
+			<Item class="CylinderHandleAdornment" referent="RBX1016BF7B22344DC3B0306A524CBF6FF4">
+				<Properties>
+					<token name="AdornCullingMode">1</token>
+					<Ref name="Adornee">RBX5376145839BD489CAE4A7B4B1378D7D8</Ref>
+					<bool name="AlwaysOnTop">true</bool>
+					<float name="Angle">360</float>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<Color3 name="Color3">
+						<R>1</R>
+						<G>1</G>
+						<B>0</B>
+					</Color3>
+					<float name="Height">0</float>
+					<float name="InnerRadius">2</float>
+					<string name="Name">HandleDimmed</string>
+					<float name="Radius">2.4000001</float>
+					<Vector3 name="SizeRelativeOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="Transparency">0.800000012</float>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+			</Item>
+			<Item class="BoxHandleAdornment" referent="RBX296B2533A44C4B9DA6D62AC36F14893E">
+				<Properties>
+					<token name="AdornCullingMode">1</token>
+					<Ref name="Adornee">RBX5376145839BD489CAE4A7B4B1378D7D8</Ref>
+					<bool name="AlwaysOnTop">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<Color3 name="Color3">
+						<R>1</R>
+						<G>1</G>
+						<B>0</B>
+					</Color3>
+					<string name="Name">MaxTick</string>
+					<Vector3 name="Size">
+						<X>0</X>
+						<Y>0.5</Y>
+						<Z>0.0500000007</Z>
+					</Vector3>
+					<Vector3 name="SizeRelativeOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="Transparency">0.200000003</float>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+			</Item>
+			<Item class="BoxHandleAdornment" referent="RBX090FF851DD454906A68D88A0ECCF58B1">
+				<Properties>
+					<token name="AdornCullingMode">1</token>
+					<Ref name="Adornee">RBX5376145839BD489CAE4A7B4B1378D7D8</Ref>
+					<bool name="AlwaysOnTop">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<Color3 name="Color3">
+						<R>1</R>
+						<G>1</G>
+						<B>0</B>
+					</Color3>
+					<string name="Name">MinTick</string>
+					<Vector3 name="Size">
+						<X>0</X>
+						<Y>0.5</Y>
+						<Z>0.0500000007</Z>
+					</Vector3>
+					<Vector3 name="SizeRelativeOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="Transparency">0.200000003</float>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+			</Item>
+			<Item class="BoxHandleAdornment" referent="RBX49C8A0C5EAA1420DAFA701CF5288BFCA">
+				<Properties>
+					<token name="AdornCullingMode">1</token>
+					<Ref name="Adornee">RBX5376145839BD489CAE4A7B4B1378D7D8</Ref>
+					<bool name="AlwaysOnTop">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<Color3 name="Color3">
+						<R>1</R>
+						<G>1</G>
+						<B>0</B>
+					</Color3>
+					<string name="Name">Ruler</string>
+					<Vector3 name="Size">
+						<X>2</X>
+						<Y>0.200000003</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="SizeRelativeOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="Transparency">0.200000003</float>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+			</Item>
+			<Item class="CylinderHandleAdornment" referent="RBXC7E0EC85EA384FE280EC5D0ECF5BCAA8">
+				<Properties>
+					<token name="AdornCullingMode">1</token>
+					<Ref name="Adornee">RBX5376145839BD489CAE4A7B4B1378D7D8</Ref>
+					<bool name="AlwaysOnTop">false</bool>
+					<float name="Angle">360</float>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<Color3 name="Color3">
+						<R>1</R>
+						<G>1</G>
+						<B>0</B>
+					</Color3>
+					<float name="Height">0</float>
+					<float name="InnerRadius">2</float>
+					<string name="Name">Handle</string>
+					<float name="Radius">2.4000001</float>
+					<Vector3 name="SizeRelativeOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="Transparency">0.800000012</float>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBX98D58FC36F7642EA999C3D31DC102B02">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBXF6BB417959424071B36476059961AB8A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBX107E9EB736CE43CF9D7100C0716499A2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBX2518A47367984DD984F123A18514042A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BubbleChatEnabled">false</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBXEF731C49F22743D88A7BDD657962B8B6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXCBE24FE7B18A4AB0B8B8D7A59DA61CC3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">56832</int>
+			<float name="RespawnTime">5</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBX6578945C28EB4B3299E520DEF48C36BF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedFirst</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBX9A9126D4F5C14F77ADC3E59328629C5E">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TweenService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PermissionsService" referent="RBXA401CA79671D440991F5C95753869D01">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PermissionsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PlayerEmulatorService" referent="RBXCCB4CF637F914764ABC4AC2444FFEFA5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="DEPRECATED_SerializedEmulatedPolicyInfo"></string>
+			<string name="EmulatedCountryCode">US</string>
+			<string name="EmulatedGameLocale"></string>
+			<string name="Name">PlayerEmulatorService</string>
+			<bool name="PlayerEmulationEnabled">false</bool>
+			<BinaryString name="SerializedEmulatedPolicyInfo"></BinaryString>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StudioData" referent="RBX2AE2B4F693F141EEAE6ED910AE27D97A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int64 name="CommitInflightAuthorId">0</int64>
+			<string name="CommitInflightGuid"></string>
+			<int name="CommitInflightPlaceVersion">0</int>
+			<bool name="EnableScriptCollabByDefaultOnLoad">false</bool>
+			<string name="Name">StudioData</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<int64 name="SrcPlaceId">0</int64>
+			<int64 name="SrcUniverseId">0</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBXB691EC9C50344FE085D20B0FF3DCF15D">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">128</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">true</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<token name="LoadCharacterLayeredClothing">0</token>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBX496FD703BDB24688BB131457E787B276">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterPlayerScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBXE40A661172E44E07A16C86376CFC16DA">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterCharacterScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBXEBE911AB95B44579AD2B1F2A0A30598C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterPack</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX78395554AF844F1893990A17DB5891A5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="ScreenGui" referent="RBX5A1BFB0D194C47DFA5880BB9B115F7B8">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoLocalize">true</bool>
+				<int name="DisplayOrder">0</int>
+				<bool name="Enabled">true</bool>
+				<bool name="IgnoreGuiInset">true</bool>
+				<string name="Name">NudgeUI2D</string>
+				<bool name="ResetOnSpawn">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<token name="ZIndexBehavior">1</token>
+			</Properties>
+			<Item class="TextLabel" referent="RBXB1CCEC5579FF49729B3FF04DEF600899">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="AutoLocalize">true</bool>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<float name="BackgroundTransparency">1</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">0</int>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="Draggable">false</bool>
+					<token name="Font">4</token>
+					<int name="LayoutOrder">0</int>
+					<float name="LineHeight">1</float>
+					<int name="MaxVisibleGraphemes">-1</int>
+					<string name="Name">Label</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>0</YS>
+						<YO>0</YO>
+					</UDim2>
+					<bool name="RichText">false</bool>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<bool name="Selectable">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<UDim2 name="Size">
+						<XS>1</XS>
+						<XO>0</XO>
+						<YS>1</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<string name="Text">?</string>
+					<Color3 name="TextColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<bool name="TextScaled">false</bool>
+					<float name="TextSize">32</float>
+					<Color3 name="TextStrokeColor3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<float name="TextStrokeTransparency">0</float>
+					<float name="TextTransparency">0</float>
+					<token name="TextTruncate">0</token>
+					<bool name="TextWrapped">false</bool>
+					<token name="TextXAlignment">2</token>
+					<token name="TextYAlignment">1</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">2</int>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LocalizationService" referent="RBXA117991E1D9E4D11A8FE381D3A607538">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LocalizationService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBXACB0ABAD51904FB89679E90976D085E5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Teleport Service</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX2F16474D270C45EEB247D8457D40CA6F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CollectionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBXF664DDC93E9048D08BD3B5AEBF99D048">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBXC3D8418DA35D4810A91AA1335EA2C4AC">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Geometry</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBXAD525E9046DC4E21A3E055214B9D2FF3">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">InsertService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="StringValue" referent="RBXE2404E6BE8894B8DA59B5CE6D1CC4BD4">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">InsertionHash</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<string name="Value">{4651F87E-9C7A-4327-9CF1-FBC30BFE99E1}</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="GamePassService" referent="RBXC96C2327665B462785163C5DFCFB95B4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">GamePassService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX25DCB15480274FF58D510FD27D054B89">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX23C764F70275469FA86DF919AD92E713">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CookiesService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBXE3ACA0A7355443C9898E3B7F4B2E5F85">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VRService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX5876C7AF0A454B05B77CFC6E3155BAE4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ContextActionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX21C5C9EFB6DD4A3CB6CD71A17500310F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX6A8A6D7F5C904295971591E07D7362C5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AssetService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBXB27F274DE44945B8B8671E500E91B7FD">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TouchInputService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AnalyticsService" referent="RBX2ADA4449D81145C5A6696A445F2D01A5">
+		<Properties>
+			<string name="ApiKey"></string>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AnalyticsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBXF84E9A541AB34855AD3CE6A3262F84D7">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Selection</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="RBXC107139BFBAA4CFBBF9A8E60F69DF5CD">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerStorage" referent="RBX50840C3898E742C0836A43AA3365464F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ServerStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBX48230F1CD07D41D2A46428CA314CB743">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LuaWebService" referent="RBX061FC72AA9304069992D37948FD22EC3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX245C131620CF4CD898796A1726815F46">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>0.541176498</R>
+				<G>0.541176498</G>
+				<B>0.541176498</B>
+			</Color3>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="Brightness">2</float>
+			<Color3 name="ColorShift_Bottom">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="EnvironmentDiffuseScale">0</float>
+			<float name="EnvironmentSpecularScale">0</float>
+			<float name="ExposureCompensation">0</float>
+			<Color3 name="FogColor">
+				<R>0.752941251</R>
+				<G>0.752941251</G>
+				<B>0.752941251</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>0.501960814</R>
+				<G>0.501960814</G>
+				<B>0.501960814</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<float name="ShadowSoftness">0.200000003</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">3</token>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="RBXA2BF573927CC4B0EB376585501F79517">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LanguageService" referent="RBXA71D81256B424FDD9879B5A3D788F528">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LanguageService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TestService" referent="RBXBFB47052E9674338B8F246240DDCA293">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoRuns">true</bool>
+			<string name="Description"></string>
+			<bool name="ExecuteWithStudioRun">false</bool>
+			<bool name="Is30FpsThrottleEnabled">true</bool>
+			<bool name="IsPhysicsEnvironmentalThrottled">true</bool>
+			<bool name="IsSleepAllowed">true</bool>
+			<string name="Name">TestService</string>
+			<int name="NumberOfPlayers">0</int>
+			<double name="SimulateSecondsLag">0</double>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<double name="Timeout">10</double>
+		</Properties>
+	</Item>
+	<Item class="VirtualInputManager" referent="RBX9F04F21C77CB43E48DBB4269C120B181">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VirtualInputManager</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<SharedStrings>
+		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
+	</SharedStrings>
+</roblox>

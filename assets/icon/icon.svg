@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+	<g fill="#def" stroke="#74a6fd" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="9.0895" stroke-width="16">
+		<path d="m72 216 184 88v200l-248-120z" color="#000000" style="paint-order:markers fill stroke"/>
+		<path d="m440 216-184 88v200l248-120z" color="#000000" style="paint-order:markers fill stroke"/>
+		<path d="m72 216 184 88 184-88-184-88z" color="#000000" style="paint-order:markers fill stroke"/>
+	</g>
+	<path d="m256 224-104-104h48v-112h112v112h48z" color="#000000" fill="#9fbffb" stroke="#74a6fd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="9.0895" stroke-width="16" style="paint-order:markers fill stroke"/>
+</svg>
