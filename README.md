@@ -16,7 +16,9 @@ Holding `Ctrl` while adjusting will snap to a smaller increment.
 See the [demo](assets/demo) directory for more demonstrations.
 
 ## Installation
-Nudge Cell is available for installation on the Roblox website.
+Nudge Cell is available for installation from the Roblox website.
+
+https://www.roblox.com/library/6785866759
 
 ## Building
 This plugin can be built manually with **[rbxmk][rbxmk] v0.6.2**.
