@@ -22,11 +22,11 @@ Nudge Cell is available for installation on the Roblox website.
 This plugin can be built manually with **[rbxmk][rbxmk] v0.6.2**.
 
 ```bash
-rbxmk run build.rbxmk.lua NudgeCell.rbxm
+rbxmk run build.rbxmk.lua
 ```
 
-This builds the plugin as NudgeCell.rbxm, which can be moved to user's
-configured plugin folder.
+This builds the plugin as the default `NudgeCell.rbxm`, which can be moved to
+user's configured plugin folder.
 
 The plugin may instead be built directly to the plugins folder by including it
 as a root directory:
