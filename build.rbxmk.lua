@@ -18,14 +18,21 @@ local function addModules(dir, target)
 	end
 end
 
+-- Read plugin config file.
+local config = fs.read("plugin.json")
+
 -- Create plugin root.
 local plugin = DataModel.new()
 local folder = Instance.new("Folder")
 folder.Name = "NudgeCell"
 folder.Parent = plugin
 
--- Include main script and modules.
-fs.read("src/Main.script.lua").Parent = folder
+-- Include main script with version number.
+local main = fs.read("src/Main.script.lua")
+main.Source = types.ProtectedString("-- v" .. config.Version .. "\n\n" .. main.Source.Value)
+main.Parent = folder
+
+-- Include modules.
 fs.read("src/Const.lua").Parent = folder
 fs.read("src/Driver.lua").Parent = folder
 fs.read("src/Maid.lua").Parent = folder
