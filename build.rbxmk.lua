@@ -1,5 +1,11 @@
 local targetPath, assetPath = ...
+
 targetPath = targetPath or "NudgeCell.rbxm"
+local ext = os.split(targetPath, "fext")
+if ext ~= ".rbxm" and ext ~= ".rbxmx" then
+	print(string.format("incompatable extension %q", ext))
+	return
+end
 print("Building", targetPath)
 
 -- Add each module in dir as a child to target.

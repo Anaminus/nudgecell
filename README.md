@@ -37,6 +37,9 @@ rbxmk run build.rbxmk.lua \
 $PLUGINS_FOLDER/NudgeCell.rbxm
 ```
 
+Compatible file extensions are `rbxm`, which writes as the binary model format,
+and `rbxmx`, which writes as the XML model format.
+
 For asset development, the user's configured asset directory may be included as
 a second argument:
 
