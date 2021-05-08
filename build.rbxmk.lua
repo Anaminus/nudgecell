@@ -62,4 +62,4 @@ if assetPath then
 end
 
 -- Write plugin file.
-fs.write(targetPath, plugin, "rbxm")
+fs.write(targetPath, plugin)
