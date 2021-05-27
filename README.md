@@ -16,22 +16,36 @@ Holding `Ctrl` while adjusting will snap to a smaller increment.
 See the [demo](assets/demo) directory for more demonstrations.
 
 ## Installation
-Nudge Cell is available for installation from the Roblox website.
+Nudge Cell is available for installation from within Studio via the Toolbox:
 
-https://www.roblox.com/library/6785866759
+1. Open the Toolbox.
+2. Select the Plugins category.
+3. Search for "Nudge Cell".
+4. Select **Nudge Cell** by **Anaminus**.
+4. Click the Install button.
+
+It can also be installed from [the website][asset]. Installing free copies of
+Nudge Cell should be avoided, as they will have been authored by untrusted
+providers. Instead, it is recommended that you compile the plugin yourself [from
+source](#user-content-building).
+
+[asset]: https://www.roblox.com/library/6785866759
+
+## Permissions
+Nudge Cell requires **no** permissions to operate.
 
 ## Building
-This plugin can be built manually with **[rbxmk][rbxmk] v0.6.2**.
+This plugin can be built manually with **[rbxmk][rbxmk] v0.7.2 or later**.
 
 ```bash
 rbxmk run build.rbxmk.lua
 ```
 
 This builds the plugin as the default `NudgeCell.rbxm`, which can be moved to
-user's configured plugin folder.
+the user's configured plugin folder.
 
 The plugin may instead be built directly to the plugins folder by including it
-as a root directory:
+as a root directory (`$PLUGINS_FOLDER` is replaced by the folder path):
 
 ```bash
 rbxmk run build.rbxmk.lua \
@@ -54,7 +68,7 @@ $ASSETS_FOLDER
 ```
 
 This will copy assets to the asset folder, and compile the plugin to point to
-these assets intead of uploaded versions.
+these assets instead of uploaded versions.
 
 [rbxmk]: https://github.com/Anaminus/rbxmk
 
