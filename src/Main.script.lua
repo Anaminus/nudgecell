@@ -16,7 +16,7 @@ local toolbar = driver.Plugin:CreateToolbar(Const.ID.Toolbar)
 local toolbarToggleActive = toolbar:CreateButton(
 	Const.ID.ToolbarToggleActive,
 	Lion.Toolbar_ToggleActive_Tooltip(),
-	Assets.Icon(32),
+	Assets.Logo(32),
 	Lion.Toolbar_ToggleActive_Text()
 )
 toolbarToggleActive.ClickableWhenViewportHidden = false

@@ -73,5 +73,5 @@ these assets instead of uploaded versions.
 [rbxmk]: https://github.com/Anaminus/rbxmk
 
 ## License
-The source code and assets for Nudge Cell, except for the [logo](assets/icon),
+The source code and assets for Nudge Cell, except for the [logo](assets/logo),
 are licensed under [MIT](LICENSE).

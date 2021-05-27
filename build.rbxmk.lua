@@ -59,13 +59,13 @@ local ui = fs.read("src/UI.rbxlx")
 ui:Descend("Workspace", "NudgeUI3D").Parent = folder
 ui:Descend("StarterGui", "NudgeUI2D").Parent = folder
 
--- Copy icon to asset directory.
+-- Copy logo to asset directory.
 if assetPath then
 	local dir = os.join(assetPath, "nudgecell")
 	fs.mkdir(dir)
 
-	local icon32 = fs.read("assets/icon/icon_32.png", "bin")
-	fs.write(os.join(dir, "icon_32.png"), icon32, "bin")
+	local logo32 = fs.read("assets/logo/logo_32.png", "bin")
+	fs.write(os.join(dir, "logo_32.png"), logo32, "bin")
 end
 
 -- Write plugin file.
